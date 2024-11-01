@@ -1,0 +1,28 @@
+.team {
+  width: 100%;
+  padding: 32px;
+  text-align: center;
+  font-family: 'Prata', sans-serif;
+  font-size: 32px;
+  position: relative;
+}
+
+.team-input-color {
+  position: absolute;
+  top: 20px;
+  right: 50px;
+}
+
+.team h3 {
+  font-weight: 400;
+  color: #212121;
+  border-bottom: 4px solid;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
+.collaborators {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}

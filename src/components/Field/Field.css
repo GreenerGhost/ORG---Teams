@@ -1,0 +1,27 @@
+.field {
+  margin: 24px 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.field label {
+  font-size: 18px;
+  font-weight: 600;
+  display: block;
+  margin-bottom: 8px;
+}
+
+.field input {
+  width: 100%;
+  background-color: white;
+  box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.06);
+  border: none;
+  padding: 30px 20px;
+  outline-color: #6278F7;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.field input[type="color"] {
+  height: 40px !important;
+  padding: 5px 29px;
+}
